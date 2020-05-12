@@ -49,7 +49,5 @@ while 1: # Run forever
         print ("Not Changed")
     else: # If something has changed
         message = client.messages.create(from_=from_whatsapp_number,body = url,to=to_whatsapp_number)
-        print ("Change found")
-        #print (message.sid)
         break
     time.sleep(sleeptime)
