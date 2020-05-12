@@ -6,7 +6,6 @@ import time
 from twilio.rest import Client
 
 # url to be scraped
-#url = "https://ncov2019.live/data"
 url = "https://www.nordstromrack.com/shop/product/2019584/red-wing-iron-ranger-cap-toe-boot-factory-second-wide-width-available?color=AMBER%20HARNESS"
 
 # client credentials are read from TWILIO_ACCOUNT_SID and AUTH_TOKEN
@@ -14,7 +13,7 @@ client = Client()
 # this is the Twilio sandbox testing number
 from_whatsapp_number='whatsapp:+14155238886'
 # replace this number with your own WhatsApp Messaging number
-to_whatsapp_number='whatsapp:+17863957183'
+to_whatsapp_number='whatsapp:+17863957181'
 
 
 # time between checks in seconds
